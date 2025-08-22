@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luke Chen | FAE · 硬件&PCB 学习</title>
+  <meta name="description" content="Luke Chen 的个人网站：FAE (SiP)，记录高速PCB/硬件自学、项目作品与博客笔记。">
+  <meta name="keywords" content="Luke Chen, FAE, SiP, PCB, 高速, 硬件, Blog, Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Luke Chen | FAE · 硬件&PCB 学习">
+  <meta property="og:description" content="记录高速PCB/硬件自学、项目作品与博客笔记。">
+  <meta property="og:image" content="/assets/images/og.png">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="/"><span>Luke</span><span class="accent">Chen</span></a>
+  <nav id="nav" class="nav">
+    <a href="/">首页</a>
+    <a href="/projects.html">项目</a>
+    <a href="/about.html">关于</a>
+    <a href="/blog/">博客</a>
+  </nav>
+  <div class="actions">
+    <button id="langToggle" class="btn">中 / EN</button>
+    <button id="themeToggle" class="btn" title="切换明暗">🌙</button>
+    <button id="menuToggle" class="btn menu" aria-label="打开菜单">☰</button>
+  </div>
+</header>
+<main class="container">
+
+<section class="hero">
+  <div class="hero-text">
+    <h1 data-i18n="home.title">你好，我是 <span class="accent">Luke Chen</span> 👋</h1>
+    <p class="lead" data-i18n="home.subtitle">FAE（SiP），正在自学高速 PCB 与硬件设计，在这里记录学习路线、项目与笔记。</p>
+    <div class="cta">
+      <a class="btn primary" href="/projects.html" data-i18n="home.cta_projects">查看项目</a>
+      <a class="btn" href="/about.html" data-i18n="home.cta_about">了解我</a>
+    </div>
+  </div>
+  <div class="hero-media">
+    <img src="/assets/images/avatar.svg" alt="Luke Chen Avatar" class="avatar">
+  </div>
+</section>
+
+<section class="features">
+  <article class="card">
+    <h3 data-i18n="home.feature1_title">学习路线</h3>
+    <p data-i18n="home.feature1_desc">从零基础进阶高速 PCB：电路基础 → 信号完整性 → 高速布线 → 设计验证。</p>
+  </article>
+  <article class="card">
+    <h3 data-i18n="home.feature2_title">项目作品</h3>
+    <p data-i18n="home.feature2_desc">开源小项目与实战记录：原理图、PCB、仿真与测试。</p>
+  </article>
+  <article class="card">
+    <h3 data-i18n="home.feature3_title">技术博客</h3>
+    <p data-i18n="home.feature3_desc">中英双语笔记：概念解释 + 工具实践 + 常见坑位。</p>
+  </article>
+</section>
+
+<section class="latest">
+  <h2 data-i18n="home.latest">最新内容</h2>
+  <ul class="list">
+    <li><a href="/blog/hello-world.html">Hello, World：本站搭建记</a> · <span class="muted">2025-08-21</span></li>
+  </ul>
+</section>
+</main>
+<footer class="site-footer">
+  <p>© <span id="year"></span> Luke Chen. All rights reserved.</p>
+  <p class="muted">构建于原生 HTML/CSS/JS · 部署可用 Vercel / GitHub Pages</p>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
